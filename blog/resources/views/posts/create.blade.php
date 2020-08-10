@@ -1,8 +1,9 @@
 @extends('layouts.app')
 
-@section('content')
     <h1>Our Plan</h1>
-                <div class="col-md-10 col-md-offset-2">
+        <div class="form-group">
+            <div class="row">
+                <div class="col-md-12 col-md-offset-2">
                     <div class="panel panel-default">
                         <div class="panel-heading">Advance Roket Bisnes (ARB)</div>
                             <div class="panel-body">
@@ -46,6 +47,8 @@
                         </div>
                     </div>
                 </div>
+            </div>
+        </div>
 
         <div class="form-group">
             <div class="row">
