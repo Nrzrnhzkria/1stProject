@@ -2,15 +2,6 @@
 
 @section('content')
     <h1>Our Plan</h1>
-    <div class="form-group">
-        <div class="row">
-            <div class="col-md-8 col-md-offset-2">
-                <div class="panel panel-default">
-                    
-                </div>
-            </div>
-        </div>
-    </div>
 
         <div class="form-group">
             <div class="row">
