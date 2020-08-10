@@ -1,14 +1,12 @@
 @extends('layouts.app')
 
 @section('content')
-    <h1>Our Plan</h1>
+    <h1>Create Post</h1>
     {!! Form::open(['action' => 'PostsController@store', 'method' => 'POST', 'enctype' => 'multipart/form-data']) !!}
-    <div class="container">
-          <div class="row">
-            <!-- General Tier -->
+        <div class="form-group">
             <div class="columns">
                 <ul class="price">
-                  <li class="header">General</li>
+                  <li class="header">Basic</li>
                   <li class="grey">$ 9.99 / year</li>
                   <li>10GB Storage</li>
                   <li>10 Emails</li>
@@ -17,11 +15,14 @@
                   <li class="grey"><a href="#" class="button">Sign Up</a></li>
                 </ul>
               </div>
-          </div>
-    </div>
-
-        
-        
+        </div>
+        <div class="form-group">
+            {{Form::label('body', 'Body')}}
+            {{Form::textarea('body', '', ['id' => 'article-ckeditor', 'class' => 'form-control', 'placeholder' => 'Body Text'])}}
+        </div>
+        <div class="form-group">
+            {{Form::file('cover_image')}}
+        </div>
         {{Form::submit('Submit', ['class'=>'btn btn-primary'])}}
     {!! Form::close() !!}
 @endsection
