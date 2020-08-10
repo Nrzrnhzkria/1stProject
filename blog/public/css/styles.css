@@ -10282,15 +10282,15 @@
   }
   
   .topbar.navbar-light .navbar-nav .nav-item .nav-link {
-    color: #d1d3e2;
+    color: #e2d1d1;
   }
   
   .topbar.navbar-light .navbar-nav .nav-item .nav-link:hover {
-    color: #b7b9cc;
+    color: #ccb7b7;
   }
   
   .topbar.navbar-light .navbar-nav .nav-item .nav-link:active {
-    color: #858796;
+    color: #968585;
   }
   
   .sidebar {
