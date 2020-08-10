@@ -1,5 +1,5 @@
 @extends('layouts.app')
-
+<body>
     <h1>Our Plan</h1>
         <div class="form-group">
             <div class="row">
@@ -146,4 +146,4 @@
                     </div>
                 </div>
         </div>
-@endsection
+</body>
