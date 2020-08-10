@@ -5,7 +5,7 @@
 
         <div class="form-group">
             <div class="row">
-                <div class="col-md-12 ">
+                <div class="col-md-10 ">
                     <div class="panel panel-default">
                         <div class="panel-heading">Roket Pemasaran Momentum (RPM)</div>
                             <div class="panel-body">
