@@ -5,9 +5,9 @@
 
         <div class="form-group">
             <div class="row">
-                <div class="col-md-8 col-md-offset-2">
+                <div class="col-md-8 col-md-offset-1">
                     <div class="panel panel-default">
-                        <div class="panel-heading" style="background-color: crimson">Roket Pemasaran Momentum (RPM)</div>
+                        <div class="panel-heading">Roket Pemasaran Momentum (RPM)</div>
                             <div class="panel-body">
                             <div class="columns">
                                 <ul class="price">
