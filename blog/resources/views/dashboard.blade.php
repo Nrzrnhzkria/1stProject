@@ -8,8 +8,8 @@
                 <div class="panel-heading">Dashboard</div>
 
                 <div class="panel-body">
-                    <a href="/posts/create" class="btn btn-primary">Create Post</a>
-                    <h3>Your Blog Posts</h3>
+                    <a href="/posts/create" class="btn btn-primary">Make A Subscription</a>
+                    <h3>Your Subscription</h3>
                     @if(count($posts) > 0)
                         <table class="table table-striped">
                             <tr>
@@ -31,7 +31,7 @@
                             @endforeach
                         </table>
                     @else
-                        <p>You have no posts</p>
+                        <p>You haven't subscribe to any plan yet</p>
                     @endif
                 </div>
             </div>
