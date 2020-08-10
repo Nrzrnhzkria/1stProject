@@ -2,7 +2,6 @@
 
 @section('content')
     <h1>Our Plan</h1>
-    {!! Form::open(['action' => 'PostsController@store', 'method' => 'POST', 'enctype' => 'multipart/form-data']) !!}
         <div class="form-group">
             <div class="row">
                 <div class="col-md-8 col-md-offset-2">
@@ -149,6 +148,4 @@
                     </div>
                 </div>
         </div>
-        {{Form::submit('Submit', ['class'=>'btn btn-primary'])}}
-    {!! Form::close() !!}
 @endsection
