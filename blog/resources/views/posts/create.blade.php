@@ -5,7 +5,7 @@
 
         <div class="form-group">
             <div class="row">
-                <div class="col-md-10 col-md-1">
+                <div class="col-md-8 col-md-offset-2">
                     <div class="panel panel-default">
                         <div class="panel-heading">Roket Pemasaran Momentum (RPM)</div>
                             <div class="panel-body">
@@ -54,7 +54,7 @@
 
         <div class="form-group">
             <div class="row">
-                <div class="col-md-7 col-lg-offset-1">
+                <div class="col-md-8 col-md-offset-2">
                     <div class="panel panel-default">
                         <div class="panel-heading">Advance Roket Bisnes (ARB)</div>
                             <div class="panel-body">
@@ -103,7 +103,7 @@
 
         <div class="form-group">
                 <div class="row">
-                    <div class="col-md-7 col-lg-offset-1">
+                    <div class="col-md-8 col-md-offset-2">
                         <div class="panel panel-default">
                             <div class="panel-heading">Intensif Momentum Pemasaran Internet (IMPI)</div>
                               <div class="panel-body">
